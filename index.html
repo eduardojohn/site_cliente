@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terapeuta TRG - Daiane Klein John</title>
+
     <link rel="stylesheet" href="daia.css">
 </head>
 
@@ -13,6 +15,7 @@
 <header class="topo">
     <nav class="navegacao">
         <h2 class="logo">Daiane Klein John</h2>
+
         <ul>
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
@@ -28,30 +31,27 @@
     <div class="hero-conteudo">
         <h1>Transforme sua mente, transforme sua vida</h1>
         <p>Terapia TRG para ansiedade, traumas e bloqueios emocionais</p>
-        <a href="#contato" class="botao">Agendar Sessão</a>
+
+        <a href="#contato" class="botao">
+            Quero Agendar Minha Sessão
+        </a>
     </div>
 </main>
 
 <!-- SOBRE -->
 <section id="sobre" class="secao">
-    <div class="container">
+    <div class="container sobre-box">
 
-        <div class="sobre-box">
+        <img src="daiane.jpg" alt="Daiane Klein John - Terapeuta TRG" class="foto-perfil">
 
-            <img src="WhatsApp Image 2026-04-27 at 23.17.30.jpeg"
-                 alt="Daiane Klein John"
-                 class="foto-perfil">
+        <div class="sobre-texto">
+            <h2>Sobre Mim</h2>
 
-            <div class="sobre-texto">
-                <h2>Sobre Mim</h2>
-
-                <p>
-                    Sou terapeuta especializado em TRG (Terapia de Reprocessamento Generativo),
-                    ajudando pessoas a superarem traumas, ansiedade e padrões emocionais negativos
-                    de forma rápida e eficaz.
-                </p>
-            </div>
-
+            <p>
+                Sou terapeuta especializada em TRG (Terapia de Reprocessamento Generativo),
+                atuando no acolhimento e transformação de padrões emocionais como ansiedade,
+                traumas e bloqueios internos. Meu objetivo é ajudar você a retomar o equilíbrio emocional.
+            </p>
         </div>
 
     </div>
@@ -77,7 +77,7 @@
 
             <div class="card">
                 <h3>Autoestima</h3>
-                <p>Fortalecimento da confiança e segurança pessoal.</p>
+                <p>Fortalecimento da confiança pessoal.</p>
             </div>
 
         </div>
@@ -91,91 +91,48 @@
 
         <h2>Contato</h2>
 
-        <p>Agende sua sessão:</p>
+        <p>Agende sua sessão agora:</p>
 
-        <a href="https://wa.me/5551996359927" class="botao">
+        <a class="botao"
+           href="https://wa.me/5551996359927?text=Olá! Gostaria de agendar minha sessão de TRG"
+           target="_blank">
             WhatsApp
         </a>
 
         <p>
             <a href="mailto:terapeutadaianeklein@gmail.com?subject=Agendamento TRG"
-               class="email-btn">
-                ✉ Agendar por e-mail
+               class="email">
+                ✉ Enviar e-mail
             </a>
         </p>
 
     </div>
 </section>
 
-<!-- REDES SOCIAIS -->
+<!-- REDES -->
 <section id="redes" class="secao">
     <div class="container">
 
         <h2>Redes Sociais</h2>
 
-        <p>Siga no Instagram para conteúdos sobre saúde emocional:</p>
+        <p>Siga no Instagram:</p>
 
         <a href="https://www.instagram.com/daiane.klein_terapeuta/"
            target="_blank"
-           class="instagram-icon">
+           class="instagram">
             📷 @daiane.klein_terapeuta
         </a>
 
     </div>
 </section>
 
-<!-- CHAT WHATSAPP -->
-<div class="wa-container">
-    <button class="wa-botao" onclick="abrirChat()">💬</button>
-
-    <div id="wa-chat" class="wa-chat">
-
-        <div class="wa-header">
-            <span>Atendimento TRG</span>
-            <button onclick="fecharChat()">✖</button>
-        </div>
-
-        <div class="wa-body">
-            <p>Olá 👋</p>
-            <p>Como posso te ajudar hoje?</p>
-        </div>
-
-        <div class="wa-footer">
-            <a href="https://wa.me/5551996359927?text=Olá! Quero agendar uma sessão de TRG"
-               target="_blank">
-                Iniciar conversa
-            </a>
-        </div>
-
-    </div>
-</div>
-
 <!-- WHATSAPP FLUTUANTE -->
 <a href="https://wa.me/5551996359927"
    class="whatsapp-float"
    target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-         alt="WhatsApp">
+    💬
 </a>
 
-<!-- EMAIL FLUTUANTE -->
-<a href="mailto:terapeutadaianeklein@gmail.com?subject=Agendamento TRG"
-   class="email-btn">
-    ✉
-</a>
-
-<!-- SCRIPT -->
-<script>
-function abrirChat() {
-    document.getElementById("wa-chat").style.display = "block";
-}
-
-function fecharChat() {
-    document.getElementById("wa-chat").style.display = "none";
-}
-</script>
-
-<!-- FOOTER -->
 <footer class="rodape">
     <p>© 2026 - Daiane Klein John | Terapia TRG</p>
 </footer>
