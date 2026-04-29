@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-
-    <!-- ESSENCIAL PRA MOBILE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Terapeuta TRG - Daiane Klein John</title>
 
     <link rel="stylesheet" href="daia.css">
+
+    <!-- Fonte Premium -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header class="topo">
     <nav class="navegacao">
+
         <h2 class="logo">Daiane Klein John</h2>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
         <ul>
             <li><a href="#inicio">Início</a></li>
@@ -25,12 +28,13 @@
             <li><a href="#contato">Contato</a></li>
             <li><a href="#redes">Instagram</a></li>
         </ul>
+
     </nav>
 </header>
 
 <main id="inicio" class="hero">
     <div class="hero-conteudo">
-        <h1>Transforme sua mente, transforme sua vida</h1>
+        <h1>Transforme sua mente,<br>transforme sua vida</h1>
         <p>Terapia TRG para ansiedade, traumas e bloqueios emocionais</p>
         <a href="#contato" class="botao">Agendar Sessão</a>
     </div>
@@ -40,6 +44,7 @@
     <div class="container">
 
         <div class="sobre-box">
+
             <img src="WhatsApp Image 2026-04-27 at 23.17.30.jpeg" class="foto-perfil">
 
             <div class="sobre-texto">
@@ -49,6 +54,7 @@
                     ajudando pessoas a superarem traumas, ansiedade e padrões emocionais negativos.
                 </p>
             </div>
+
         </div>
 
     </div>
@@ -108,6 +114,12 @@
 <footer class="rodape">
     <p>© 2026 - Daiane Klein John</p>
 </footer>
+
+<script>
+function toggleMenu() {
+    document.querySelector(".navegacao").classList.toggle("ativo");
+}
+</script>
 
 </body>
 </html>
